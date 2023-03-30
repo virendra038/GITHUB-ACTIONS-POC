@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{secrets.TEST_SECRET}}"
+      - run: echo "${{secrets.TEST_VAR}}"
      
